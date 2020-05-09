@@ -58,3 +58,28 @@ print("{0:=^20}".format("hi"))
 name = "김현준"
 age = 21
 print(f'나의 이름은 {name}입니다. 나이는 {age+1}입니다.')
+
+d = {'name': '김현준', 'age': 22}
+print(f'나의 이름은 {d["name"]}입니다. 나이는 {d["age"]}입니다.')
+
+a = "hobby"
+print(a.count('b'))
+print(a.find('b'))
+print(a.find('k'))
+
+print(",".join('abcd'))
+
+print(",".join(['a', 'b', 'c', 'd']))
+
+a = "hi"
+print(a.upper())
+
+a = " hi "
+print(a.lstrip())
+print(a.rstrip())
+print(a.strip())
+
+a = "Life is too short"
+print(a.replace("Life", "Your leg"))
+
+print(a.split())
