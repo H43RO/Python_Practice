@@ -49,3 +49,12 @@ print("I eat {0} apples".format(3))
 print("I eat {0} apples".format("five"))
 print("I eat {0} apples for {1} days".format("five", "three"))
 print("I eat {how} apples for {day} days".format(day="five", how="three"))
+
+print("{0:<10}".format("hi"))
+print("{0:>10}".format("hi"))
+print("{0:^10}".format("hi"))
+print("{0:=^20}".format("hi"))
+
+name = "김현준"
+age = 21
+print(f'나의 이름은 {name}입니다. 나이는 {age+1}입니다.')
