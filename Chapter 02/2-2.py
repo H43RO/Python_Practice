@@ -1,3 +1,5 @@
+# 문자열 자료형
+
 food = "Python's favorite food is perl"
 print(food)  # 큰 따옴표로 감싸면 내부의 작은 따옴표를 문자열 처리해줌
 
