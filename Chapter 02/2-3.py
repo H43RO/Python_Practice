@@ -1,3 +1,5 @@
+# 리스트 자료형
+
 odd = [1, 3, 5, 7, 9]
 print(odd)
 
@@ -65,5 +67,6 @@ print(a.count(1))
 
 a = [1, 2, 3]
 a.extend([4, 5])
+print(a)
 a += [6, 7]
 print(a)
