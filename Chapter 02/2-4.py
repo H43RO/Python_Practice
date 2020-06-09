@@ -8,4 +8,13 @@ t4 = 1, 2, 3  # 괄호 생략 가능
 t5 = ('a', 'b', ('ab', 'cd'))
 
 t1 = (1, 2, 'a', 'b')
-del t1[0]
+# del t1[0] <- 오류 발생 (요솟값 변경 시에도 마찬가지)
+
+print(t1[0])
+print(t1[3])
+print(t1[1:])
+
+t2 = 3, 4
+print(t1 + t2)
+print(t2 * 3)
+print(len(t2))
