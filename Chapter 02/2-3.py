@@ -14,3 +14,8 @@ a = [1, 2, 3, 4, 5]
 print(a[0:2])
 b = a[:2]
 print(b)
+
+a = [1, 2, 3]
+b = [4, 5, 6]
+print(a + b)
+print(a * 3)
