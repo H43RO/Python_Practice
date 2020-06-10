@@ -32,4 +32,4 @@ s1 = set([1, 2, 3])
 s1.remove(2)
 print(s1)
 s1.add(3)
-print(s1)
+print(s1)  # 중복값 허용 안함
