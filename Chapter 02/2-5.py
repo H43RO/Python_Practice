@@ -47,3 +47,9 @@ print(a.values())  # a.keys() 와 같은 타입의 객체 반환
 print(a.items())  # Key, Value 쌍을 튜플로 묶은 값 반환
 a.clear()  # 모든 요소 삭제
 print(a)
+
+a = {'name': 'pey', 'phone': '01012345678', 'birth': '0922'}
+a.get('name')
+a.get('phone')
+print(a.get('foo', 'bar'))  # 디폴트 값 'bar' 반환
+print('name' in a)
